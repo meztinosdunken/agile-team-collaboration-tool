@@ -1,6 +1,6 @@
 {
   "name": "agile-team-collaboration-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool for enhancing productivity of agile teams",
   "main": "index.js",
   "scripts": {
