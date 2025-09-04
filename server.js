@@ -24,6 +24,7 @@ app.get('/', (req, res) => {
 
 // 404 Not Found handler
 app.use((req, res) => {
+  console.error(`404 Not Found: ${req.originalUrl}`);
   res.status(404).send('404 Not Found');
 });
 
