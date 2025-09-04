@@ -1,12 +1,12 @@
 {
   "name": "agile-team-collaboration-tool",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A tool for enhancing productivity of agile teams",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run client\" \"npm run server\"",
+    "dev": "concurrently \"npm run client\" \"npm run server\",
     "build": "npm run build --prefix client"
   },
   "dependencies": {
